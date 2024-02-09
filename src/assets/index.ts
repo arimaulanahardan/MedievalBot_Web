@@ -1,11 +1,13 @@
-import background from './background.jpg';
+import background from './background header.jpg';
 import header from './header.png';
-import logo from './logo.png';
+import logo from './logo.svg';
 import twiter from './twiter.svg';
 import github from './github.svg';
 import telegram from './telegram.svg';
 import discord from './discord.svg';
 import logo_footer from './logo footer.png';
+import close from './close.svg';
+import menu from './menu.svg';
 import benefit1 from './benefit (1).png';
 import benefit2 from './benefit (2).png';
 import benefit3 from './benefit (3).png';
@@ -29,6 +31,8 @@ export{
     github,
     telegram,
     discord,
+    close,
+    menu,
     benefit1,
     benefit2,
     benefit3,

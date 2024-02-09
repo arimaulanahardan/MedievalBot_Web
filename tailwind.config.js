@@ -9,7 +9,6 @@ export default {
       colors: {
         primary: "#1E1C1D",
         secondary: "#E16307",
-        primaryfont: "#F5F5F5",
         dimWhite: "rgba(255, 255, 255, 0.7)",
       },
       fontFamily: {
