@@ -7,10 +7,10 @@ interface ButtonProps {
     icon ?: React.ReactNode;
 }
 
-const Button = ({ style, title, onClick, icon }: ButtonProps) => {
+const Button: React.FC<ButtonProps>  = ({ style, title, onClick, icon }) => {
     return (
         <button
-            className={`bg-primary-gradient text-white font-montserrat font-normal text-[16px] rounded-[2px] px-6 py-2 ${style}`}
+            className={`bg-primary-gradient text-white font-montserrat font-normal text-[16px] rounded-[4px] px-6 py-2 ${style}`}
             onClick={onClick}
         >
             {title}

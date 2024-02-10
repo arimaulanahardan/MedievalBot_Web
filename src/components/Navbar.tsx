@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { close, logo, menu } from '../assets'
 import { navLinks } from '../constants'
 import { FaArrowRight } from "react-icons/fa";
-import Button from '../components/Button'
+import Button from '../common/Button'
 
 const Navbar = () => {
 

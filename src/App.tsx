@@ -1,7 +1,9 @@
 import './App.css'
 import {
   Navbar,
-  Hero
+  Hero,
+  CountStat,
+  Benefit
 } from './components'
 import styles from './styles'
 
@@ -19,6 +21,8 @@ function App() {
           <Hero/>      
         </div>
       </div>
+      <CountStat />
+      <Benefit />
     </div>
   )
 }

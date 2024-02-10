@@ -8,6 +8,8 @@ import discord from './discord.svg';
 import logo_footer from './logo footer.png';
 import close from './close.svg';
 import menu from './menu.svg';
+import BgTransparant from './BgTransparant.svg';
+import cardCount from './CardCount.svg';
 import benefit1 from './benefit (1).png';
 import benefit2 from './benefit (2).png';
 import benefit3 from './benefit (3).png';
@@ -33,6 +35,8 @@ export{
     discord,
     close,
     menu,
+    cardCount,
+    BgTransparant,
     benefit1,
     benefit2,
     benefit3,

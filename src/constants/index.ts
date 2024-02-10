@@ -40,17 +40,17 @@ export const stats = [
     {
         id: "stat-1",
         title: "Members Community",
-        value: "2.320+"
+        value: 2320
     },
     {
         id: "stat-2",
         title: "Transactions",
-        value: "1.550+"
+        value: 1550
     },
     {
-        id: "stat-1",
+        id: "stat-3",
         title: "Signals",
-        value: "98+"
+        value: 98
     }
 ]
 
@@ -58,25 +58,25 @@ export const benefits = [
     {
         id: "benefit-1",
         title: "Auto mated Execution",
-        description: "Rest easy, brave knight, while our tireless bot executes trades 24/7, freeing you to strategize your next conquest.",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
         image: benefit1
     },
     {
         id: "benefit-2",
-        title: "TimeßTested Strategies",
-        description: "Wield battle-proven algorithms, crafted by our crypto wizards, to outmaneuver the market's fiercest foes.",
+        title: "Time-Tested Strategies",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
         image: benefit2
     },
     {
         id: "benefit-3",
         title: "Customizable Tactics",
-        description: "Forge your own path to victory with adjustable settings, tailoring risk and reward to your desires.We take security seriously. Our bot is designed to keep your assets safe and sound.",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
         image: benefit3
     },
     {
         id: "benefit-4",
         title: "Monitoring Backtest",
-        description: "Delve into the past, simulating trades with historical data to refine your strategies before venturing into the live market.",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
         image: benefit4
     }
 ]

@@ -3,7 +3,7 @@ import {
 } from "../assets";
 import { socialMediaLinks } from "../constants";
 import styles from "../styles";
-import Button from "./Button";
+import Button from "../common/Button";
 import { FaRegPlayCircle } from "react-icons/fa";
 
 const Hero = () => {
@@ -20,10 +20,10 @@ const Hero = () => {
                     </a>
                 ))}
             </aside>
-            <div className='px-6 flex flex-row justify-between items-center'>
-                <h1 className='flex-1 font-montserrat font-bold ss:text-[55px] text-[70px] text-white'>
+            <div className='px-6 flex flex-row justify-between items-center w-full'>
+                <h1 className='flex-1 font-montserrat font-bold ss:text-[60px] text:[50px] text-white'>
                     Forge {" "}
-                    <span className='text-secondary'>Your Fortune</span> <br className='sm:block hidden' />{" "} <span className='text-white'>In The Digital</span> <br className='sm:block hidden' />{" "} <span className='text-white'>Arena</span>
+                    <span className='text-secondary'>Your Fortune</span> <br className='sm:block hidden' />{" "} <span className='text-white'>In The Digital</span> <br className='sm:block hiden' />{" "} <span className='text-white'>Arena</span>
                     <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro harum hic eaque, fugit nulla itaque ut dolorum vitae accusamus sint.
                     </p>
@@ -41,7 +41,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </h1>
-                <img src={header} alt="header" className="w-[600px] h-[600px] object-contain" />
+                <img src={header} alt="header" className="w-[550px] object-contain" />
             </div>
         </section>
     )
