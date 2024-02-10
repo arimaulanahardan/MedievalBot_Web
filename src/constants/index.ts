@@ -3,6 +3,7 @@ import {
     github,
     telegram,
     discord,
+    profilPicture,
     benefit1,
     benefit2,
     benefit3,
@@ -86,31 +87,37 @@ export const features = [
         id:"feature-1",
         title: "Automated Trading",
         image : feature1,
+        link: "#"
     },
     {
         id:"feature-2",
         title: "Copy Trading",
         image : feature2,
+        link: "#"
     },
     {
         id:"feature-3",
         title: "Ai Powered Insights",
         image : feature3,
+        link: "#"
     },
     {
         id:"feature-4",
         title: "Advance Older Types",
         image : feature4,
+        link: "#"
     },
     {
         id:"feature-5",
         title: "Multilingual Support",
         image : feature5,
+        link: "#"
     },
     {
         id:"feature-6",
         title: "Portfolio Management-Dashboard",
         image : feature6,
+        link: "#"
     },
     {
         id:"feature-7",
@@ -122,6 +129,57 @@ export const features = [
         title: "Signal Generation & Alert",
         image : feature8,
     }
+]
+
+export const testimonials = [
+    {
+        id: "profil-1",
+        image: profilPicture,
+        name: "Army Signals",
+        username: "@CryptoArmy",
+        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
+        link: "#"
+    },
+    {
+        id: "profil-2",
+        image: profilPicture,
+        name: "Army Signals",
+        username: "@CryptoArmy",
+        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
+        link: "#"
+    },
+    {
+        id: "profil-3",
+        image: profilPicture,
+        name: "Army Signals",
+        username: "@CryptoArmy",
+        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
+        link: "#"
+    },
+    {
+        id: "profil-4",
+        image: profilPicture,
+        name: "Army Signals",
+        username: "@CryptoArmy",
+        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
+        link: "#"
+    },
+    {
+        id: "profil-5",
+        image: profilPicture,
+        name: "Army Signals",
+        username: "@CryptoArmy",
+        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
+        link: "#"
+    },
+    {
+        id: "profil-6",
+        image: profilPicture,
+        name: "Army Signals",
+        username: "@CryptoArmy",
+        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
+        link: "#"
+    },
 ]
 
 export const footerLinks = [

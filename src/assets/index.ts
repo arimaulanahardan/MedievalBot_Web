@@ -10,6 +10,9 @@ import close from './close.svg';
 import menu from './menu.svg';
 import BgTransparant from './BgTransparant.svg';
 import cardCount from './CardCount.svg';
+import cardFeatures from './CardFeatures.svg';
+import profilPicture from './ProfilPictureTestimonial.svg';
+import bgCTA from "./CardCTA.svg"
 import benefit1 from './benefit (1).png';
 import benefit2 from './benefit (2).png';
 import benefit3 from './benefit (3).png';
@@ -37,6 +40,9 @@ export{
     menu,
     cardCount,
     BgTransparant,
+    cardFeatures,
+    profilPicture,
+    bgCTA,
     benefit1,
     benefit2,
     benefit3,

@@ -5,7 +5,7 @@ import { BgTransparant } from '../assets';
 
 const Benefit = () => {
     return (
-        <section className='w-full flex flex-col'
+        <section className='w-full flex flex-col justify-center items-center'
             style={
                 {
                     background: `url(${BgTransparant}) no-repeat center`,
@@ -14,7 +14,7 @@ const Benefit = () => {
             }
         >
 
-            <div className='justify-center items-center m-10 mb-5'>
+            <div className='m-10 mb-5'>
                 <h1 className='text-white font-montserrat font-bold text-[40px] text-left w-[600px] '>Your Benefit From using our Services</h1>
                 <p className={`${styles.paragraph} mt-4 w-[80%]`}>
                     Harken, trader of the future! Doth manual trading leave you weary, yearning for automated triumphs?

@@ -3,7 +3,7 @@ import { stats } from '../constants';
 
 const CountStat = () => {
     return (
-        <section className='w-full flex flex-col justify-center items-center count'>
+        <section className='w-full flex flex-col justify-center items-center mb-10'>
 
             <div className='flex gap-10 '>
                 {stats.map((stat, i) => (
