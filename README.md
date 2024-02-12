@@ -16,8 +16,8 @@ The project structure is organized as follows:
 
 To get started with the project, follow these steps:
 
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd medieval-robot-web`
+1. Clone the repository: `git clone https://github.com/arimaulanahardan/MedievalBot_Web.git`
+2. Navigate to the project directory: `cd MedievalBot_Web`
 3. Install dependencies: `npm install`
 4. Run the development server: `npm run dev`
 
