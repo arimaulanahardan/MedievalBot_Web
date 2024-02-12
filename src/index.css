@@ -29,3 +29,8 @@
     rgba(215, 160, 16, 0.21) 88.36%
   );
 }
+
+.circle__gradient {
+  background: linear-gradient(90deg, #f4d7c4 0%, #ff8716 100%);
+  filter: blur(200px);
+}

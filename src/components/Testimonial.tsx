@@ -24,6 +24,7 @@ const Testimonial = () => {
                     />
                 ))}
             </div>
+            <div className='absolute z-[0] -right-1/2  w-[50%] h-[50%] rounded-full circle__gradient' />
         </section>
     )
 }

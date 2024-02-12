@@ -9,8 +9,10 @@ const Navbar = () => {
     // const [toggle, setToggle] = useState(false)
 
     return (
-        <nav className='w-full flex py-6 justify-between items-center navbar'>
+        <nav className='w-full flex py-6 justify-between items-center navbar' style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.5)' }}>
+            <div className='absolute z-1 -left-1/3  w-[50%] h-[50%] rounded-full circle__gradient' />
             <img src={logo} alt='#' className=' scale-100' />
+
 
             {/* Desktop View */}
             <div className="item-center flex">

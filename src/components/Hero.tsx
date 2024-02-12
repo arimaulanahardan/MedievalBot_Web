@@ -43,6 +43,7 @@ const Hero = () => {
                 </h1>
                 <img src={header} alt="header" className="w-[550px] object-contain" />
             </div>
+            <div className='absolute z-0 -right-1 w-[40%] h-[40%] rounded-full circle__gradient' />
         </section>
     )
 
