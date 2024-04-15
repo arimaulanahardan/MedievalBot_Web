@@ -1,29 +1,30 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      colors: {
-        primary: "#1E1C1D",
-        secondary: "#E16307",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
+      colors : {
+        primary : "#0A0400",
+        secondary : "#E16307 ",
+        primaryTextColor : "#F5F5F5",
+        dimWhite : "rgba(142, 142, 142, 1)",
+        yellowGradient: "radial-gradient(124.83% 101.4% at 15.32% 21.04%, rgba(255, 92, 0, 0.2) 0%, rgba(245, 200, 132, 0.12) 58.21%, rgba(255, 234, 202, 0.2) 100%)",
       },
-      fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif'],
+      fontFamily : {
+        medievalSharp : ["MedievalSharp", "cursive"],
+        Poppins : ["Poppins", "sans-serif"]
       }
     },
-    screens: {
-      xs: "480px",
-      ss: "620px",
-      sm: "768px",
-      md: "1060px",
-      lg: "1200px",
-      xl: "1700px",
-    }
   },
   plugins: [],
-}
+});
+
+
+
 

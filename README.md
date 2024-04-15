@@ -1,54 +1,79 @@
-# Medieval Bot - Crypto Solana Trading Telegram Bot
+# Forgebot.io
 
-Medieval Bot is a Telegram bot designed for crypto trading on the Solana blockchain. It provides users with features to execute trades, monitor market statistics, and more. The project is built using Vite.js, React.js, TypeScript, and Tailwind CSS.
+This project is The Future of Trading With Forge Bot, 
+swift and smooth trading anywhere, anytime, with our user-friendly Telegram bot.
 
-## Project Structure
-
-The project structure is organized as follows:
-
-- **src**: Contains the source code of the project.
-  - **assets**: Stores any static assets used in the project.
-  - **common**: Contains common utility functions or components used throughout the project.
-  - **components**: Houses React components used to build the UI.
-  - **constants**: Contains any constants or configuration files used in the project.
+lets Check our site https://forgebot.io
 
 ## Getting Started
 
-To get started with the project, follow these steps:
+To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/arimaulanahardan/MedievalBot_Web.git`
-2. Navigate to the project directory: `cd MedievalBot_Web`
-3. Install dependencies: `npm install`
-4. Run the development server: `npm run dev`
+1. Clone the repository:
 
-## Available Scripts
+   ```bash
+   git clone (https://github.com/PartialSolution/FB.git)
+   ```
 
-In the project directory, you can run the following scripts:
+2. Navigate to the project directory:
 
-- `npm run dev`: Runs the development server using Vite.
-- `npm run build`: Builds the project for production.
-- `npm run lint`: Lints the TypeScript files using ESLint.
-- `npm run preview`: Preview the production build locally.
+   ```bash
+   cd FB
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   This will start the development server, and you can view the application at `http://localhost:3000`.
+
+## Scripts
+
+- `npm dev`: Start the development server.
+- `npm build`: Build the production-ready application.
+- `npm preview`: Preview the production build locally.
 
 ## Dependencies
 
-The project relies on the following dependencies:
+- [framer-motion](https://www.npmjs.com/package/framer-motion) - Animations library.
+- [react](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [react-accessible-accordion](https://www.npmjs.com/package/react-accessible-accordion) - Accessible accordion component for React.
+- [react-countup](https://www.npmjs.com/package/react-countup) - React component wrapper around CountUp.js.
+- [react-dom](https://reactjs.org/docs/react-dom.html) - Entry point to the DOM and server renderers for React.
+- [react-icons](https://react-icons.github.io/react-icons/) - Icon library for React applications.
+- [react-outside-click-handler](https://www.npmjs.com/package/react-outside-click-handler) - React component to handle clicks outside a specified area.
+- [swiper](https://swiperjs.com/) - Modern mobile touch slider.
 
-- **React**: JavaScript library for building user interfaces.
-- **React Countup**: React component wrapper around CountUp.js for animating numbers.
-- **React Icons**: Library providing popular icon packs as React components.
-- **Tailwind CSS**: Utility-first CSS framework for rapidly building custom designs.
-- **TypeScript**: Typed superset of JavaScript that compiles to plain JavaScript.
-- **Vite**: Next-generation frontend tooling for modern web development.
+## Project Structure
 
+- **`app.tsx`**: The main entry point of the application.
+- **`components/`**: Directory containing different sections of the company profile (Header, Hero, Companies, Residencies, Value, Contact, GetStarted, Footer).
+- **`App.css`**: Stylesheet for the main application.
 
-## Screenshoot
-![Medieval Screenshot](public/screenshot%20(1).png)
-![Medieval Screenshot](public/screenshot%20(2).png)
-![Medieval Screenshot](public/screenshot%20(3).png)
-![Medieval Screenshot](public/screenshot%20(4).png)
-![Medieval Screenshot](public/screenshot%20(5).png)
-![Medieval Screenshot](public/screenshot%20(6).png)
-![Medieval Screenshot](public/screenshot%20(7).png)
-![Medieval Screenshot](public/screenshot%20(8).png)
+## Usage
 
+The `App` component in `app.tsx` represents the structure of the entire company profile. Each section is modularized into separate components for better organization and maintainability.
+
+Feel free to customize the content, styles, and components to fit the specific needs and branding of the real estate company.
+
+## Screen Shoot Project
+### Desktop
+![Forge Bot Screenshot](public/f1.png)
+![Forge Bot Screenshot](public/f2.png)
+![Forge Bot Screenshot](public/f3.png)
+![Forge Bot Screenshot](public/f4.png)
+![Forge Bot Screenshot](public/f5.png)
+![Forge Bot Screenshot](public/f6.png)
+![Forge Bot Screenshot](public/f7.png)
+
+### Mobile
+![Forge Bot Screenshot](public/fm1.jpg)
+![Forge Bot Screenshot](public/fm2.jpg)

@@ -1,0 +1,67 @@
+{
+    "NavbarTitle1":"Home",
+    "NavbarTitle2":"Services",
+    "NavbarTitle3":"About Us",
+    "NavbarTitle4":"Testimonials",
+    
+    "Docs":"Trade",
+
+    "HeroLanguge": "Select Language",
+    "HeroTitle1" : "Experience",
+    "HeroTitle2" : "The Future of Trading",
+    "HeroTitle3" : "With",
+    "HeroTitle4" : "Forge Bot",
+    "HeroParagraph" : "Your comprehensive solution across multiple blockchains. Seamlessly integrated with Telegram, ForgeBot offers a user-friendly experience and the best trading UX for your DeFi experience",
+    "HeroButton1" : "Get Started",
+    "HeroButton2" : "Learn More",
+
+    "Count1" : "Community",
+    "Count2" : "Transactions",
+    "Count3" : "TVL",
+
+    "BenefitTitle" : "Unlock your potential",
+    "BenefitDesc" : "Experience the future of trading with ForgeBot, your comprehensive solution across multiple blockchains. Seamlessly integrated with Telegram, ForgeBot offers a user-friendly experience and the best trading UX for your DeFi experience.",    
+    "BenfitTitle1" : "Revenue Share",
+    "BenefitDesc1" : "As a holder, you're entitled to 50% of transaction fees and 1% of the overall trading volume of $FORGE. Rewards are calculated daily and can be claimed anytime. To be eligible for these rewards, you must hold a minimum of 30 $FORGE tokens.",
+    "BenfitTitle2" : "Point-Based Prizes",
+    "BenefitDesc2" : "Engage with ForgeBot and climb our leaderboard by earning points through trading. The more you trade, the higher you rank. Top traders stand a chance to reap the greatest rewards! For a detailed breakdown of point distribution, please refer to our documentation.",
+    "BenfitTitle3" : "Fee-Based Discounts",
+    "BenefitDesc3" : "Enjoy discounts based on your total activity on ForgeBot. Depending on your tier, you could receive up to a 50% discount on fees. ForgeBot automatically calculates fees for each transaction conducted.",
+    "BenfitTitle4" : "Referral Initiative",
+    "BenefitDesc4" : "ForgeBot users can create a referral code to unlock additional perks. Referrers earn 30% of the transaction fees from their referrals, while referees receive a 10% discount on their transaction fees.",
+
+    "FeatureTitle" : "What Sets ForgeBot Apart?",
+    "FeatureDesc": "Unlock the gateway to your ETH, Solana, and Blast success story with ForgeBot!",
+    "LearnMore" : "Learn More",
+    "FeatureTitle1" : "Competitive Rates",
+    "FeatureDesc1" : "ForgeBot offers the most competitive trading rates compared to the top bots in the market.",
+
+    "FeatureTitle2" : "Team Token Vesting",
+    "FeatureDesc2" : "We ensure the longevity of ForgeBot  tokens by vesting team tokens.",
+
+    "FeatureTitle3" : "Referral Initiative",
+    "FeatureDesc3" : "Our referral program offers significant rewards for our loyal blocksmith",
+
+    "FeatureTitle4" : "Point-Based Prizes",
+    "FeatureDesc4" : " Drive competition and reward blocksmiths with our point-based prizes system",
+    "FeatureTitle5" : "MEV-Resistant Swaps",
+
+    "FeatureDesc5" : " Ensure you get the best buy-in price with our MEV-resistant swaps",
+    
+    "FeatureTitle6" : "User-Friendly Interface",
+    "FeatureDesc6" : "Experience an easy-to-use interface for an optimal trading experience",
+
+    "CTATitle" : "Be Part Of The Future Of Trading",
+    "CTADesc" : "Trade across multiple chains with ease, precision, and speed.",
+    "CTAButton" : "Get Started",
+
+    "Terms&Conditions" : "Terms & Conditions",
+    "TermsTitle": "BY USING FORGEBOT SERVICES",
+    "TermsHeader1" : "YOU AGREE TO THE TERMS AND CONDITIONS:",
+    "TermsDesc1" : " The Forgebot Services Agreement is an agreement between you and Forgebot that governs your use of Forgebot online products and services. The parties of the agreement are “Forgebot and the services that they provide that include, but are not limited to, Telegram bots, channels, groups, and any application created and distributed by Forgebot ” hereinafter called “Forgebot Services” and “The users of these services and applications in telegram and other platforms” hereinafter called “users”.",
+    "TermsHeader2" : "Limited Liability:",
+    "TermsDesc2" : "We strive to regularly update and enhance the content of our service. Despite our diligence, the content may occasionally be incomplete or inaccurate. The materials we provide come with no guarantees or claims regarding their accuracy. These materials are subject to change without prior notice, and we do not assume liability for any typing or programming errors, especially in relation to the prices on our services. We take no responsibility for hyperlinks to third-party websites or services included in our service. Users can track Telegram channels and visit external websites through hyperlinks or buttons, but we have no control over the content and nature of these sites and channels. The inclusion of such links does not imply a recommendation for all the content found on these external sites and channels. Site ownership and content may change without notice, and we cannot guarantee the timely removal of potentially outdated links.When leaving our services, users may encounter different privacy policies and terms on other sites beyond our control. It is advisable to review the Privacy Policies and 'Terms of Service' of these external sites before engaging in any business or uploading information. Unless mandated by law, the owners or contributors to ForgeBot Services shall not be liable for any damages, including but not limited to loss of use, profits, or data, arising from the use of ForgeBot Services.",
+    "TermsHeader3" : "General Disclaimer:",
+    "TermsDesc3" : "All ForgeBot services and their contents are presented 'as is' and 'as available' without any warranties or representations, whether express or implied. ForgeBot functions as a distributor and not a publisher of content provided by third parties. Consequently, ForgeBot exercises no editorial control over such content and does not warrant the accuracy, reliability, or currency of any information, content, service, or merchandise available through or accessible via the ForgeBot Services. Without limiting the above, ForgeBot expressly disclaims all warranties and representations related to any content transmitted on or in connection with the ForgeBot Services, on sites linked through the ForgeBot Services, or in products associated with the ForgeBot Services. This includes, but is not limited to, warranties of merchantability, fitness for a particular purpose, or non-infringement of third-party rights. No oral advice or written information provided by ForgeBot, its affiliates, employees, officers, directors, agents, or similar entities will create a warranty. Price and availability information are subject to change without notice. ForgeBot does not guarantee that the ForgeBot Services will be uninterrupted, uncorrupted, timely, or error-free."
+
+}

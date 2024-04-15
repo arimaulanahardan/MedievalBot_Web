@@ -1,49 +1,131 @@
 import {
-    header,
+    HeroImage,
+    HeroBackground,
 } from "../assets";
-import { socialMediaLinks } from "../constants";
+import { socialMediaLinks, LANGUAGE } from "../constants";
 import styles from "../styles";
-import Button from "../common/Button";
-import { FaRegPlayCircle } from "react-icons/fa";
+import Button from "../common/components/Button";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+    const { i18n, t } = useTranslation()
+
+    const onChangeLang = (e: React.ChangeEvent<HTMLSelectElement>) => {
+        const lang_code = e.target.value
+        i18n.changeLanguage(lang_code)
+    }
+
     return (
-        <section className="w-full flex justify-between items-center hero">
-            <aside className="flex flex-col gap-4 h-[100%] py-44 items-center border-r border-white border-opacity-50 cursor-pointer">
-                {socialMediaLinks.map((social, i) => (
-                    <a href={social.link}>
-                        <img
-                            key={social.id}
-                            src={social.image}
-                            className="w-[80px] h-[80px]"
-                        />
-                    </a>
-                ))}
+        <section
+            id="home"
+            className="w-full flex"
+            style={{
+                backgroundImage: `url(${HeroBackground})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+            }}>
+            <aside className="flex h-full sm:py-28 py-40 items-center border-r border-white border-opacity-50 px-4">
+                <div className="grid grid-col-1 space-y-20">
+                    {socialMediaLinks.map((social, i) => (
+                        <a
+                            key={i}
+                            href={social.link}>
+                            <img
+                                key={social.id}
+                                src={social.image}
+                                className="w-[25px]  h-[25px] button"
+                            />
+                        </a>
+                    ))}
+                </div>
             </aside>
-            <div className='px-6 flex flex-row justify-between items-center w-full'>
-                <h1 className='flex-1 font-montserrat font-bold ss:text-[60px] text:[50px] text-white'>
-                    Forge {" "}
-                    <span className='text-secondary'>Your Fortune</span> <br className='sm:block hidden' />{" "} <span className='text-white'>In The Digital</span> <br className='sm:block hiden' />{" "} <span className='text-white'>Arena</span>
-                    <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro harum hic eaque, fugit nulla itaque ut dolorum vitae accusamus sint.
-                    </p>
-                    <div className="flex gap-12 pt-8">
+            <div className='px-6 flex sm:flex-row flex-col justify-between items-center w-full'>
+
+                <div className="sm:hidden flex">
+                    <div className="flex-col">
+                        <div className="w-full text-start flex-col m-2">
+                            <p
+                                className="text-white font-medievalSharp text-[10px]"
+                            >
+                                {t("HeroLanguge")}
+                            </p>
+                            <div>
+                                <select
+                                    defaultValue={i18n.language}
+                                    onChange={onChangeLang}
+                                    className="button w-30 rounded-md font-medievalSharp p-1 drop-shadow-md bg-transparent duration-300 focus:ring-0 text-white border border-white border-opacity-50 text-[14px]"
+                                >
+                                    {
+                                        LANGUAGE.map((lang, i) => (
+                                            <option
+                                                key={i}
+                                                value={lang.code}
+                                                className="text-black"
+                                            >
+                                                {lang.label}
+                                            </option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                        <img src={HeroImage} alt="HeroImage" className="w-[550px]" />
+                    </div>
+                </div>
+                <div className="flex-1 sm:h-[550px]">
+                    <div className="hidden sm:flex flex-col  mb-8">
+                        <p
+                            className="text-white "
+                        >
+                            {t("HeroLanguge")}
+                        </p>
+                        <select
+                            defaultValue={i18n.language}
+                            onChange={onChangeLang}
+                            className="button w-44 rounded-md p-2 drop-shadow-md bg-transparent duration-300 focus:ring-0 text-white border border-white border-opacity-50"
+                        >
+                            {
+                                LANGUAGE.map((lang, i) => (
+                                    <option
+                                        key={i}
+                                        value={lang.code}
+                                        className="text-black"
+                                    >
+                                        {lang.label}
+                                    </option>
+                                ))
+                            }
+                        </select>
+
+                    </div>
+                    <h1 className={`${styles.heading2}`}>
+                        {t("HeroTitle1")}
+                        <span className='text-secondary'> {t("HeroTitle2")}</span> {" "} <span>{t("HeroTitle3")} <br className='sm:block hiden' />{t("HeroTitle4")}</span> <br className='sm:block hiden' />{" "}
+                        <p className={`${styles.paragraph} text-primaryTextColor w-full sm:mt-5 mt-4`}>
+                            {t("HeroParagraph")}
+                        </p>
+                    </h1>
+                    <div className="flex sm:gap-12 gap-4 sm:mt-8 mt-4 flex-center items-center sm:justify-start justify-center">
                         <Button
-                            style="mt-0"
-                            title="Get Started"
-                            onClick={() => { console.log('Button Clicked') }}
+                            style="mt-0 font-medievalSharp"
+                            title={t("HeroButton1")}
+                            onClick={() => window.location.href = "https://t.me/forge_avax_bot?start=DEFAULT"}
                         />
-                        <div className="flex rounded-[2px] px-6 py-2 border border-secondary hover">
-                            <a className="text-[16px] text-center font-normal text-secondary" href="#">
-                                Watch Video
+                        <div className="button flex rounded-[2px] px-6 py-2 border border-secondary hover">
+                            <a className="sm:text-[16px] text-[12px] text-center font-medievalSharp font-normal text-secondary"
+                                onClick={() => window.open('https://forgebot.gitbook.io', '_blank')}
+                            >
+                                {t("HeroButton2")}
                             </a>
-                            <FaRegPlayCircle className="text-secondary text-[20px] ml-4" />
                         </div>
                     </div>
-                </h1>
-                <img src={header} alt="header" className="w-[550px] object-contain" />
+                </div>
+
+                <div className="hidden sm:flex items-end justify-end">
+                    <img src={HeroImage} alt="HeroImage" className="sm:w-[450px] w-[350px]" />
+                </div>
             </div>
-            <div className='absolute z-0 -right-1 w-[40%] h-[40%] rounded-full circle__gradient' />
         </section>
     )
 

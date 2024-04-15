@@ -1,8 +1,9 @@
 const styles = {
-  boxWidth: "xl:max-w-[1280px] w-full",
+  boxWidth: "xl:max-w-[1340px] sm:w-full w-full mx-auto",
 
-  heading2: "font-montserrat font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-  paragraph: "font-montserrat font-normal text-dimWhite text-[18px] leading-[30.8px]",
+  heading2: "font-medievalSharp font-bold sm:text-[52px] text-[30px] text-white w-full text-center sm:text-left sm:leading-[65px] leading-[35px]",
+
+  paragraph: "font-medievalSharp font-normal text-dimWhite sm:text-[20px] text-[14px] sm:leading-[30.8px] leading-[20px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

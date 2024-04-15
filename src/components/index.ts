@@ -1,19 +1,19 @@
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import CountStat from "./CountStat";
-import Benefit from "./Benefit";
-import Features from "./Features";
-import Testimonial from "./Testimonial";
-import CTA from "./CTA";
-import Footer from "./Footer";
+import Navbar from './Navbar';
+import Hero from './Hero';
+import Count from './Count';
+import Benefit from './Benefit';
+import Feature from './Feature';
+import CTA from './CTA';
+import Testimonial from './Testimonials';
+import Footer from './Footer';
 
-export{
+export {
     Navbar,
     Hero,
-    CountStat,
+    Count,
     Benefit,
-    Features,
-    Testimonial,
+    Feature,
     CTA,
+    Testimonial,
     Footer
-}
+};

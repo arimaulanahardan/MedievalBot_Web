@@ -1,58 +1,52 @@
-import background from './background header.jpg';
-import header from './header.png';
-import logo from './logo.svg';
-import twiter from './twiter.svg';
-import github from './github.svg';
-import telegram from './telegram.svg';
-import discord from './discord.svg';
-import logo_footer from './logo footer.png';
-import close from './close.svg';
-import menu from './menu.svg';
-import BgTransparant from './BgTransparant.svg';
-import cardCount from './CardCount.svg';
-import cardFeatures from './CardFeatures.svg';
-import profilPicture from './ProfilPictureTestimonial.svg';
-import bgCTA from "./CardCTA.svg"
-import benefit1 from './benefit (1).png';
-import benefit2 from './benefit (2).png';
-import benefit3 from './benefit (3).png';
-import benefit4 from './benefit (4).png';
-import feature1 from './feature (1).png';
-import feature2 from './feature (2).png';
-import feature3 from './feature (3).png';
-import feature4 from './feature (4).png';
-import feature5 from './feature (5).png';
-import feature6 from './feature (6).png';
-import feature7 from './feature (7).png';
-import feature8 from './feature (8).png';
+import HeroBackground from "./HeroBG.png"
+import TestimonialBackground from "./TestimonialBG.png"
+import NavLogo from "./LogoNavbar.svg"
+import Twitter from "./Twitter.svg"
+import Github from "./Github.svg"
+import Telegram from "./Telegram.svg"
+import Discord from "./Discord.svg"
+import DiscordComingSoon from "./DiscordComingSoon.svg"
+import DiscordComingSoon1 from "./DiscordComingSoon1.svg"
+import GradientCardCount from "./CardCount.svg"
+import HeroImage from "./HeroImage.png"
+import HammerCusrsor from "./HammerCursor.png"
+import CTABackground from "./CTA.svg"
+import Logo from "./LogoForgeBot.png"
+import Book from "./bookNew.svg"
+import BGCardFeatures from "./BgCardFeature.svg"
+import BenefitFeature1 from "./Benefit (1).png"
+import BenefitFeature2 from "./Benefit (2).png"
+import BenefitFeature3 from "./Benefit (3).png"
+import BenefitFeature4 from "./Benefit (4).png"
+import BenefitFeature5 from "./Benefit (5).png"
+import BenefitFeature6 from "./Benefit (6).png"
+import BenefitFeature7 from "./Benefit (7).png"
+import TestimonialProfils from "./TestimonialIcon.png"
 
 
-export{
-    background,
-    header,
-    logo,
-    logo_footer,
-    twiter,
-    github,
-    telegram,
-    discord,
-    close,
-    menu,
-    cardCount,
-    BgTransparant,
-    cardFeatures,
-    profilPicture,
-    bgCTA,
-    benefit1,
-    benefit2,
-    benefit3,
-    benefit4,
-    feature1,
-    feature2,
-    feature3,
-    feature4,
-    feature5,
-    feature6,
-    feature7,
-    feature8
+export {
+    HeroBackground,
+    TestimonialBackground,
+    NavLogo,
+    Twitter,
+    Github,
+    Telegram,
+    Discord,
+    DiscordComingSoon,
+    DiscordComingSoon1,
+    GradientCardCount,
+    HeroImage,
+    HammerCusrsor,
+    CTABackground,
+    Logo,
+    Book,
+    BGCardFeatures,
+    BenefitFeature1,
+    BenefitFeature2,
+    BenefitFeature3,
+    BenefitFeature4,
+    BenefitFeature5,
+    BenefitFeature6,
+    BenefitFeature7,
+    TestimonialProfils,
 }

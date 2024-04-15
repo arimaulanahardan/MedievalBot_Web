@@ -1,243 +1,207 @@
 import {
-    twiter,
-    github,
-    telegram,
-    discord,
-    profilPicture,
-    benefit1,
-    benefit2,
-    benefit3,
-    benefit4,
-    feature1,
-    feature2,
-    feature3,
-    feature4,
-    feature5,
-    feature6,
-    feature7,
-    feature8
-} from "../assets";
+    BenefitFeature1,
+    BenefitFeature2,
+    BenefitFeature3,
+    BenefitFeature4,
+    BenefitFeature5,
+    BenefitFeature6,
+    TestimonialProfils,
+    Twitter,
+    Book,
+    Telegram,
+    // Discord,
+    DiscordComingSoon1
+} from "../assets"
 
-export const navLinks = [
+
+export const LANGUAGE = [
+    { label: "English", code: "en" },
+    { label: "Chinese", code: "zh" },
+    { label: "Spanish", code: "es" },
+    { label: "Russian", code: "ru" },
+    { label: "Korean", code: "ko" },
+    { label: "Japanese", code: "ja" },
+
+]
+
+export const navLinks = (t: (key: string) => string) => [
     {
         id: "home",
-        title: "Home",
+        tittle: t("NavbarTitle1"),
+        link: "/#home"
     },
     {
         id: "services",
-        title: "Services",
+        tittle: t("NavbarTitle2"),
+        link: "/#services"
     },
     {
         id: "about us",
-        title: "About Us",
+        tittle: t("NavbarTitle3"),
+        link: "/#about%20us"
     },
-    {
-        id: "testimonials",
-        title: "Testimonials",
-    },
-];
-
-export const stats = [
-    {
-        id: "stat-1",
-        title: "Members Community",
-        value: 2320
-    },
-    {
-        id: "stat-2",
-        title: "Transactions",
-        value: 1550
-    },
-    {
-        id: "stat-3",
-        title: "Signals",
-        value: 98
-    }
 ]
 
-export const benefits = [
+export const stats = (t: (key: string) => string) => [
     {
-        id: "benefit-1",
-        title: "Auto mated Execution",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
-        image: benefit1
+        id: "community",
+        tittle: t("Count1"),
+        count: 0,
     },
     {
-        id: "benefit-2",
-        title: "Time-Tested Strategies",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
-        image: benefit2
+        id: "transactions",
+        tittle: t("Count2"),
+        count: 0,
     },
     {
-        id: "benefit-3",
-        title: "Customizable Tactics",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
-        image: benefit3
+        id: "members",
+        tittle: t("Count3"),
+        count: 0,
     },
-    {
-        id: "benefit-4",
-        title: "Monitoring Backtest",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
-        image: benefit4
-    }
 ]
 
-export const features = [
+export const benefits = (t: (key: string) => string) => [
     {
-        id:"feature-1",
-        title: "Automated Trading",
-        image : feature1,
-        link: "#"
+        id: "benefit1",
+        tittle: t("BenfitTitle1"),
+        description: t("BenefitDesc1"),
+        link: "https://www.google.com"
     },
     {
-        id:"feature-2",
-        title: "Copy Trading",
-        image : feature2,
-        link: "#"
+        id: "benefit2",
+        tittle: t("BenfitTitle2"),
+        description: t("BenefitDesc2"),
+        link: "https://www.google.com"
     },
     {
-        id:"feature-3",
-        title: "Ai Powered Insights",
-        image : feature3,
-        link: "#"
+        id: "benefit3",
+        tittle: t("BenfitTitle3"),
+        description: t("BenefitDesc3"),
+        link: "https://www.google.com"
     },
     {
-        id:"feature-4",
-        title: "Advance Older Types",
-        image : feature4,
-        link: "#"
+        id: "benefit4",
+        tittle: t("BenfitTitle4"),
+        description: t("BenefitDesc4"),
+        link: "https://www.google.com"
+    },
+]
+
+export const featureBenefits = (t: (key: string) => string) => [
+    {
+        id: "feature1",
+        title: t("FeatureTitle1"),
+        description: t("FeatureDesc1"),
+        image: BenefitFeature1,
+        link: "https://forgebot.gitbook.io"
     },
     {
-        id:"feature-5",
-        title: "Multilingual Support",
-        image : feature5,
-        link: "#"
+        id: "feature6",
+        title: t("FeatureTitle6"),
+        description: t("FeatureDesc6"),
+        image: BenefitFeature6,
+        link: "https://forgebot.gitbook.io"
     },
     {
-        id:"feature-6",
-        title: "Portfolio Management-Dashboard",
-        image : feature6,
-        link: "#"
+        id: "feature3",
+        title: t("FeatureTitle3"),
+        description: t("FeatureDesc3"),
+        image: BenefitFeature3,
+        link: "https://forgebot.gitbook.io"
     },
     {
-        id:"feature-7",
-        title: "Technical Analsis Tools",
-        image : feature7,
+        id: "feature4",
+        title: t("FeatureTitle4"),
+        description: t("FeatureDesc4"),
+        image: BenefitFeature4,
+        link: "https://forgebot.gitbook.io"
     },
     {
-        id:"feature-8",
-        title: "Signal Generation & Alert",
-        image : feature8,
-    }
+        id: "feature5",
+        title: t("FeatureTitle5"),
+        description: t("FeatureDesc5"),
+        image: BenefitFeature5,
+        link: "https://forgebot.gitbook.io"
+    },
+    {
+        id: "feature2",
+        title: t("FeatureTitle2"),
+        description: t("FeatureDesc2"),
+        image: BenefitFeature2,
+        link: "https://forgebot.gitbook.io"
+    },
 ]
 
 export const testimonials = [
     {
-        id: "profil-1",
-        image: profilPicture,
-        name: "Army Signals",
-        username: "@CryptoArmy",
-        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
-        link: "#"
+        id: "testimonial1",
+        name: "John Doe",
+        username: "@johndoe",
+        description: "I have been using ForgeBot for a while now and I must say it has been a great experience. I have been able to get the best prices for my trades and the UI is very easy to use.",
+        image: TestimonialProfils,
+        link: "https://www.google.com"
     },
     {
-        id: "profil-2",
-        image: profilPicture,
-        name: "Army Signals",
-        username: "@CryptoArmy",
-        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
-        link: "#"
+        id: "testimonial2",
+        name: "Jane Doe",
+        username: "@janedoe",
+        description: "I have been using ForgeBot for a while now and I must say it has been a great experience. I have been able to get the best prices for my trades and the UI is very easy to use.",
+        image: TestimonialProfils,
+        link: "https://www.google.com"
     },
     {
-        id: "profil-3",
-        image: profilPicture,
-        name: "Army Signals",
-        username: "@CryptoArmy",
-        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
-        link: "#"
+        id: "testimonial3",
+        name: "John Doe",
+        username: "@johndoe",
+        description: "I have been using ForgeBot for a while now and I must say it has been a great experience. I have been able to get the best prices for my trades and the UI is very easy to use.",
+        image: TestimonialProfils,
+        link: "https://www.google.com"
     },
     {
-        id: "profil-4",
-        image: profilPicture,
-        name: "Army Signals",
-        username: "@CryptoArmy",
-        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
-        link: "#"
+        id: "testimonial4",
+        name: "Jane Doe",
+        username: "@janedoe",
+        description: "I have been using ForgeBot for a while now and I must say it has been a great experience. I have been able to get the best prices for my trades and the UI is very easy to use.",
+        image: TestimonialProfils,
+        link: "https://www.google.com"
     },
     {
-        id: "profil-5",
-        image: profilPicture,
-        name: "Army Signals",
-        username: "@CryptoArmy",
-        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
-        link: "#"
+        id: "testimonial5",
+        name: "John Doe",
+        username: "@johndoe",
+        description: "I have been using ForgeBot for a while now and I must say it has been a great experience. I have been able to get the best prices for my trades and the UI is very easy to use.",
+        image: TestimonialProfils,
+        link: "https://www.google.com"
     },
     {
-        id: "profil-6",
-        image: profilPicture,
-        name: "Army Signals",
-        username: "@CryptoArmy",
-        testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat.",
-        link: "#"
+        id: "testimonial6",
+        name: "Jane Doe",
+        username: "@janedoe",
+        description: "I have been using ForgeBot for a while now and I must say it has been a great experience. I have been able to get the best prices for my trades and the UI is very easy to use.",
+        image: TestimonialProfils,
+        link: "https://www.google.com"
     },
-]
-
-export const footerLinks = [
-    {
-        title: "Useful Links",
-        links: [
-            {
-                name: "About Us",
-                link: "#"
-            },
-            {
-                name: "Contact Us",
-                link: "#"
-            },
-            {
-                name: "Documentation",
-                link: "#"
-            },
-            {
-                name: "Services",
-                link: "#"
-            }
-        ]
-    },
-    {
-        title: "Resources",
-        links: [
-            {
-                name: "Blog",
-                link: "#"
-            },
-            {
-                name: "Support",
-                link: "#"
-            }
-        ]
-    }
 ]
 
 export const socialMediaLinks = [
     {
         id: "twitter",
-        image: twiter,
-        link: "#"
+        image: Twitter,
+        link: "https://twitter.com/ForgeBot_io"
     },
     {
-        id: "github",
-        image: github,
-        link: "#"
+        id: "Docs",
+        image: Book,
+        link: "https://forgebot.gitbook.io"
     },
     {
         id: "telegram",
-        image: telegram,
-        link: "#"
+        image: Telegram,
+        link: "https://t.me/forge_avax_bot?start=DEFAULT"
     },
     {
         id: "discord",
-        image: discord,
+        image: DiscordComingSoon1,
         link: "#"
-    }
+    },
 ]
