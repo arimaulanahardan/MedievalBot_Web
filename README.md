@@ -12,19 +12,19 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone (https://github.com/PartialSolution/FB.git)
+   git clone (https://github.com/arimaulanahardan/MedievalBot_Web.git)
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd FB
+   cd MedievalBot_Web
    ```
 
 3. Install dependencies:
 
    ```bash
-   npm
+   npm i
    ```
 
 4. Run the development server:
